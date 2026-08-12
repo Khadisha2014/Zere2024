@@ -1,0 +1,23 @@
+/* Final contrast and visual refinements for GPTSensei */
+.chat-page{
+  background:radial-gradient(circle at 45% 30%,#d9fbff 0,#a5efff 34%,#196981 61%,#071217 82%,#050a0e 100%)!important;
+}
+.message.bot .bubble{
+  max-width:620px;
+  padding:13px 16px!important;
+  border:1px solid #54d9f5;
+  border-radius:14px;
+  background:#06151b!important;
+  color:#f4feff!important;
+  box-shadow:0 8px 20px #00141b55;
+}
+.message.bot .message-avatar{
+  background:#11bfe9!important;
+  font-size:0!important;
+}
+.message.bot .message-avatar::after{content:'🤖';font-size:17px;line-height:1}
+.brand-mark{background:#11bfe9!important;font-size:0!important}
+.brand-mark::after{content:'🤖';font-size:18px;line-height:1}
+.welcome-orb{background:linear-gradient(135deg,#c8fbff,#12bde8)!important}
+.welcome-orb svg{stroke:#00131b!important}
+.bubble{color:#f4feff!important}
