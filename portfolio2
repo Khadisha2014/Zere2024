@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zere Portfolio</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #87CEEB 0%, #F0E68C 100%);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            color: #333;
+        }
+        h1 { color: #005f73; }
+        .project {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 15px;
+            width: 60%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>🌊 My Portfolio 🌊</h1>
+    <p>Hi! I am Zere. Welcome to my projects page.</p>
+    
+    <div class="project">
+        <h2>Project 1</h2>
+        <p>Description of your first project</p>
+    </div>
+
+    <div class="project">
+        <h2>Project 2</h2>
+        <p>Description of your second project</p>
+    </div>
+</body>
+</html>
